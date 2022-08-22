@@ -1,0 +1,63 @@
+
+import java.i0.*; 
+class EVdn
+{
+public static void main(String args[])
+{
+  int a=5;
+  if(a % 2==0)
+     System.out.println(a +"is even);
+   else 
+     System.out.println(a + "is odd);
+     }
+  }   
+
+
+
+import java.util.Scanner;                   // by using Scanner class 
+public class Edc{
+  public static void main(String args[])
+  {
+     Scanner reader=new Scanner(System.in);     //taking input from the user.
+     System.out.print("enter a number ");
+     int num = reader.nextInt();
+
+     if (num % 2==0)
+         System.out.println(num + 'is even");
+     else 
+         System.out.println(num + "is odd);
+   }
+ }
+ 
+ import java.io.*;
+ class Evdn{
+  public static void main(String args[])
+  {
+  int a=5;
+  String b=(a % 2==0)?"is Even":"is Odd";  // using ternary operater.
+  System.out.println(a + b);
+  }
+  }
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
