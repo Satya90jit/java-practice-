@@ -38,26 +38,54 @@ public class Edc{
   System.out.println(a + b);
   }
   }
- 
   
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+// taking Four integer & check and print if equal or not equqal.
+
+
+import java.io.*;
+import java.util.Scanner;
+
+class Equal{
+public static void main(String args[])
+{
+Scanner obj=new.Scanner(System.in);
+  System.out.println("enter ist no.");
+    int a=obj.nextInt();
+  System.out.println("enter 2nd No.");
+    int b=obj.nextInt();
+  System.out.println("enter 2nd No."); 
+    int c=obj.nextInt();
+  System.out.println("enter 2nd No.");
+    int d=obj.nextInt();
+     
+     if ( a==b && b==c && c==d)
+       {
+         System.out.println("All No.s are equal");
+         }
+     else 
+        {
+     System.out.println("NO.S are not equal");
+     }
+}
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
