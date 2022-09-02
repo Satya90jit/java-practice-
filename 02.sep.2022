@@ -1,0 +1,31 @@
+import java.io.*;
+import java.util.Scanner;
+
+public class Avrg {
+public static void main(String[] args) {
+String roll;
+float sub1,sub2,sub3,avrg;
+Scanner input = new Scanner(System.in);
+
+for(int i=1; i<=8; i++){
+System.out.print("Write Your Roll Number: ");
+roll = input.next();
+
+System.out.print("Write Your First Subject Mark: ");
+sub1 = input.nextFloat();
+System.out.print("Write Your Second Subject Mark: ");
+sub2 = input.nextFloat();
+System.out.print("Write Your Third Subject Mark: ");
+sub3 = input.nextFloat();
+
+avrg = (sub1 + sub2 + sub3) / 3;
+
+if(sub1<=100 && sub2<=100 && sub3<=100){
+System.out.printf("\nAvrg Mark of Roll Number %s is %.1f\n", roll, avrg);
+}
+else{
+System.out.println("\nPlease Write Your Marks Between 0 to 100");
+}
+}
+}
+}
